@@ -23,16 +23,6 @@ html {
     color: white;
 }
 
-/*h1 {*/
-    /*font-weight: 700;*/
-    /*font-size: 4em;*/
-    /*padding-top: 2%;*/
-    /*text-align: center;*/
-    /*text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),*/
-    /*0px 8px 13px rgba(0, 0, 0, 0.1),*/
-    /*0px 18px 23px rgba(0, 0, 0, 0.1);*/
-/*}*/
-
 p {
     font-weight: 500;
     font-size: 2em;
@@ -67,15 +57,7 @@ p {
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-    /*border-radius: 25px;*/
-    /*background: rgba(173,250,204,1);*/
-    /*background: -moz-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
-    /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,250,204,1)), color-stop(22%, rgba(148,255,191,1)), color-stop(100%, rgba(58,244,223,1)));*/
-    /*background: -webkit-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
-    /*background: -o-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
-    /*background: -ms-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
-    /*background: linear-gradient(to right, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adfacc', endColorstr='#3af4df', GradientType=1 );*/
+
 }
 
 #thumbs a {
@@ -91,29 +73,34 @@ p {
     font-size: 0;
     line-height: 0
 }
+
  .typewriter h1 {
-	  text-align: center;
-	  font-weight: 700;
-	  font-size: 4em;
-	  padding-top: 2%;
-	  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-	  0px 8px 13px rgba(0, 0, 0, 0.1),
-	  0px 18px 23px rgba(0, 0, 0, 0.1);
-     font-family: Lato;
-     overflow: hidden; /* Ensures the content is not revealed until the animation */
-     border-right: .15em solid orange; /* The typwriter cursor */
-     white-space: nowrap; /* Keeps the content on a single line */
-     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-     letter-spacing: .15em; /* Adjust as needed */
-     animation:
+    text-align: center;
+    font-weight: 700;
+    font-size: 4em;
+    padding-top: 2%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid cyan; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
         typing 3.5s steps(30, end),
         blink-caret .5s step-end infinite;
  }
 
  /* The typing effect */
  @keyframes typing {
-     from { width: 0 }
-     to { width: 100% }
+    from {
+        width: 0 
+    }
+    to {
+        width: 80% 
+    }
  }
 
  /* The typewriter cursor effect */
@@ -148,3 +135,38 @@ p {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 } */
+
+/*h1 {*/
+
+/*font-weight: 700;*/
+
+/*font-size: 4em;*/
+
+/*padding-top: 2%;*/
+
+/*text-align: center;*/
+
+/*text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),*/
+
+/*0px 8px 13px rgba(0, 0, 0, 0.1),*/
+
+/*0px 18px 23px rgba(0, 0, 0, 0.1);*/
+
+/*}*/
+    /*border-radius: 25px;*/
+
+    /*background: rgba(173,250,204,1);*/
+
+    /*background: -moz-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+
+    /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,250,204,1)), color-stop(22%, rgba(148,255,191,1)), color-stop(100%, rgba(58,244,223,1)));*/
+
+    /*background: -webkit-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+
+    /*background: -o-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+
+    /*background: -ms-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+
+    /*background: linear-gradient(to right, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adfacc', endColorstr='#3af4df', GradientType=1 );*/
