@@ -23,15 +23,15 @@ html {
     color: white;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 4em;
-    padding-top: 2%;
-    text-align: center;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-    0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
-}
+/*h1 {*/
+    /*font-weight: 700;*/
+    /*font-size: 4em;*/
+    /*padding-top: 2%;*/
+    /*text-align: center;*/
+    /*text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),*/
+    /*0px 8px 13px rgba(0, 0, 0, 0.1),*/
+    /*0px 18px 23px rgba(0, 0, 0, 0.1);*/
+/*}*/
 
 p {
     font-weight: 500;
@@ -60,12 +60,22 @@ p {
 
 #thumbs {
     width: 540px;
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
+    /*border-radius: 25px;*/
+    /*background: rgba(173,250,204,1);*/
+    /*background: -moz-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+    /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,250,204,1)), color-stop(22%, rgba(148,255,191,1)), color-stop(100%, rgba(58,244,223,1)));*/
+    /*background: -webkit-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+    /*background: -o-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+    /*background: -ms-linear-gradient(left, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+    /*background: linear-gradient(to right, rgba(173,250,204,1) 0%, rgba(148,255,191,1) 22%, rgba(58,244,223,1) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adfacc', endColorstr='#3af4df', GradientType=1 );*/
 }
 
 #thumbs a {
@@ -81,6 +91,36 @@ p {
     font-size: 0;
     line-height: 0
 }
+ .typewriter h1 {
+	  text-align: center;
+	  font-weight: 700;
+	  font-size: 4em;
+	  padding-top: 2%;
+	  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	  0px 8px 13px rgba(0, 0, 0, 0.1),
+	  0px 18px 23px rgba(0, 0, 0, 0.1);
+     font-family: Lato;
+     overflow: hidden; /* Ensures the content is not revealed until the animation */
+     border-right: .15em solid orange; /* The typwriter cursor */
+     white-space: nowrap; /* Keeps the content on a single line */
+     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     letter-spacing: .15em; /* Adjust as needed */
+     animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+ }
+
+ /* The typing effect */
+ @keyframes typing {
+     from { width: 0 }
+     to { width: 100% }
+ }
+
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+     from, to { border-color: transparent }
+     50% { border-color: cyan }
+ }
 
 /* #single_image1 {
     width: 50%;
